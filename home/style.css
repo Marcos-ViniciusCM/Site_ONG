@@ -121,8 +121,10 @@ figure{
 .sobre{
   background-color: 	#5916b3;
   height: 20em;
+  width: 100%;
   float: left;
   position: relative;
+  clear: both;
   z-index: 0;
 }
 .sobre > h1{
@@ -143,6 +145,7 @@ left: 50%;
 
   position: absolute;
   top: 25%;
+  clear: both;
 }
 
 .sobre > button{
@@ -150,6 +153,15 @@ left: 50%;
   position:absolute;
   top:90%;
   left:50%;
+}
+
+.caes-comunitarios{
+position: relative;
+display: block;
+float:left;
+
+
+
 }
 
 
