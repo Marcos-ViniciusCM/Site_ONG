@@ -12,4 +12,4 @@ Requerimentos:/n
 -Lojinha virtual.
 -Apandrinhamento.
 
-Teste com /n
+Teste com /na
