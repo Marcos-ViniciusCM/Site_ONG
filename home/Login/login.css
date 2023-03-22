@@ -66,5 +66,14 @@
     opacity: 0.8;
     color: #fff;
     text-decoration: none;
-
+    display: inline-block;
+}
+.footer p {
+    font-size: 10px;
+    text-align: center;
+    height: 30px;
+    opacity: 1;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0px;
 }
