@@ -8,29 +8,30 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
-<form method="post" action="login.php" name="signin-form">
+<div id="login">
 
-  <div class="form-element">
-
-    <label>Usuário</label>
-
-    <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
-
-  </div>
-
-  <div class="form-element">
-
-    <label>Senha</label>
-
-    <input type="password" name="password" required />
-
-  </div>
-
-  <button type="submit" name="login" value="login">Entrar</button>
-
+<form class ="form" method="post" action="login.php" name="signin-form">
+  
+              <div class="form-element">
+                <div class="header">
+                  <h1>Login</h1>
+                </div>
+                <div class="content">
+                   <label>Usuário</label>
+                    <input type="text" id="usuario"name="username" pattern="[a-zA-Z0-9]+" required />
+                </div>
+              </div>
+              <div class="form-element">
+                <div class="content">
+                    <label>Senha</label>
+                    <input type="password" id ="senha" name="password" required />
+                </div>
+              </div>
+            <div class="footer">
+                <button type="submit" class="submit"  name="login" value="login">Entrar</button>
+                <a href="#" class="register">Registar</a>
+            </div>
 </form>
-
-
+</div>  <!--fecha a div do id login-->
 </body>
 </html>
