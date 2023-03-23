@@ -46,6 +46,8 @@ p{
   width: 10%;
   text-align: center;
   background-color: #B4B4ED;
+  margin-left: 4px;
+  font-size: 170%;
 
 }
 .nav-list{
@@ -96,6 +98,9 @@ p{
    visibility: visible;
    margin: 0;
   }
+  .button-donation{
+    font-size: 100%;
+  }
 }
 
 .nav-list.active{
@@ -140,13 +145,10 @@ left: 50%;
  justify-content: flex;
  display: inline-block;
  justify-content: space-around;
+ align-items: center;
 }
 
-.imagem{
-  display: inline;
-  height: 20%;
-  display: inline-block;
-}
+
 
 
 .caes-comunitarios{
