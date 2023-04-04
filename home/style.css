@@ -118,45 +118,44 @@ p{
     transform: translateX(0);
   }
 }
-
-.template{
-background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-width: 100%;
-height: 400px;
-float:none;
+.instagram {
+  height: 5vh;
 }
-.template > a{
-  position: relative;
-  top: 90%;
-  left: 50%;
+
+.instagram > img{
+  height: 100%;
   
 }
 
 
-.sobre{
+#sobre{
   background-color: 	#363145;
-  max-width: 100%;
   z-index: 0;
-  display: flex;
-
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; 
+  height: 40vh;
   
 }
+.box{
+  flex-basis: 30%; /* define a largura de cada div */
+        margin: 10px; /* adiciona uma margem entre as divs */
+        background-color:  #9B4F96; /* define uma cor de fundo */
+        text-align: center; /* centraliza o conteúdo da div */
+}
+.box > a{
+  color: #FFA500;
+}
 
-.content > h1{
+#sobre > h1{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  position: relative;
   color: #fff;
-  align-items: center;
-left: 50%;
-}
-.content{
- justify-content: flex;
- display: inline-block;
- justify-content: space-around;
- align-items: center;
-}
+  text-align: center;
+  width: 100%;
+  display: inline-block;
 
-
+}
 
 
 .caes-comunitarios{
