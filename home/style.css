@@ -200,13 +200,9 @@ p{
 }
 .box > img{
   max-width: 50%;
-  height: 190px;
-  max-width: 180px;
+  max-width: 200px;
+  min-width: 100px;
   margin: auto; /* centraliza a imagem */
-  margin-bottom: 10px;
-}
-.box >h1{
-  letter-spacing:2px;
 }
 #sobre > h1{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -261,46 +257,22 @@ p{
 .caes-comunitarios{
 position: relative;
 display: block;
+float:left;
 clear: both;
-width: 100%;
 }
 .caes-comunitarios > h1{
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: #fff;
+
 
 }
 figure{
   border: thin #c0c0c0 solid;
-  display: inline-block;
-  width: 100%;
+  display: inline;
+  flex-flow: column;
+  padding: 5px;
   max-height: 265px;
   max-width: 239px;
-  margin: 20px;
+  margin: 2em;
 }
 
-.apadrinhar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color:#363145;
-}
-.topico-apadrinhar >h1 {
-  display: flex;
-  color:#fff;
-  margin:auto;
-  justify-content: center;
-
-}
-.topico-apadrinhar >p{
-  display: flex;
-  color:#fff;
-  margin:40px ;
-  text-align: center;
-   font-size: 20px;
-}
-.topico-apadrinhar >img{
-  height: 300px;
-  margin: auto;
-  
-}
