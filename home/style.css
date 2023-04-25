@@ -5,7 +5,7 @@
   vertical-align:baseline;
 }
 body { overflow-x: hidden;
-background-color:  #2C313D; }
+background-color:  #181a1f; }
 
 a{
   text-decoration: none;
@@ -50,7 +50,7 @@ p{
   background-color: #B4B4ED;
   margin-left: 4px;
   font-size: 120%;
-
+  transition: transform 0.2s ease-in-out;
 }
 .nav-list{
   list-style: none;
@@ -174,7 +174,7 @@ p{
 
 
 #sobre{
-  background-color: 	#9B4F96;
+  background-color: 	#3b283b;
   z-index: 0;
   display: flex; 
   flex-wrap: wrap; 
@@ -188,7 +188,7 @@ p{
 .box{
   flex-basis: 30%; /* define a largura de cada div */
         margin: 10px; /* adiciona uma margem entre as divs */
-        background-color:  #9B4F96; /* define uma cor de fundo */
+        background-color:  #3b283b; /* define uma cor de fundo */
         text-align: center; /* centraliza o conteúdo da div */
         align-items: center;
       
@@ -223,6 +223,7 @@ p{
   align-items: center;
   background-color: #363145;
   margin-bottom: 20px;
+  width: 100%;
 }
 .voluntarios img {
   max-width: 100%;
@@ -305,3 +306,18 @@ color:#fff;
   
 }
 
+.topico-apadrinhar > a{
+  font-size: 20px;
+  background-color: #02FC72;
+  padding: 4px;
+  border-radius: 2vh;
+  border: solid 1px black;
+  display: block;
+  max-width: 80px;
+  margin: auto;
+  text-align: center;
+ transition: transform 0.2s ease-in-out;
+}
+a:hover{
+  transform: translateY(-5px);
+}
