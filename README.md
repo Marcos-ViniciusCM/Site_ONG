@@ -1,15 +1,16 @@
 # AnjosGaar
+<br>
 
-
-Github para o site Anjos Gaar./n
-Requerimentos:/n
--Ser simples ao usuário (Suporte a mobile e desktop).
--Ser fácil para a ong editar.
--Portfólio de cães a adoção (Foto, nome, história... etc)
--Aba de cães comunitários. (Galeria/Blog)
--Cadastro feito pelo usuário.
--Links e feed instagram.
--Lojinha virtual.
--Apandrinhamento.
-
-Teste com /na
+Github para o site Anjos Gaar.
+<br>
+-Fazer login do dashboard
+<br>
+-Alterar dados a serem enviados no dashboard
+<br>
+-Enviar voluntários no email
+<br>
+-Criar página automaticamente para cães adicionados
+<br>
+-Terminar página de doações
+<br>
+-Apadrinhamento
