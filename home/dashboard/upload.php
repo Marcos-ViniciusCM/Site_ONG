@@ -1,5 +1,6 @@
 <?php 
-require_once 'config.php'; 
+session_start();
+require_once '../config/config.php'; 
 $status = $statusMsg = ''; 
 if(isset($_POST["submit"])){ 
     $status = 'error'; 

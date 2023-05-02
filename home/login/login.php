@@ -1,8 +1,6 @@
 <?php
-
     session_start();
-
-    include('config.php');
+    include('../config/config.php');
 
     if (isset($_POST['login'])) {
 
@@ -29,12 +27,10 @@
 
             if (password_verify($password, $result['password'])) {
 
-                $_SESSION['user_id'] = $result['id'];
+                $_SESSION['username'] = $result['id'];
                 
-                 echo "<script type='text/javascript'>alert('Sucesso!');</script>";
-                 echo "<script type='text/javascript'>
-                        window.location.href = 'http://localhost/home/index.html'
-                       </script>";
+                header("Location: http://localhost/home/dashboard/dashboard.php ");
+
             } else {
 
                  echo "<script type='text/javascript'>alert('Erro. Senha ou usuário não reconhecidos.');</script>";

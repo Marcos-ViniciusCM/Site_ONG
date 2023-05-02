@@ -1,5 +1,8 @@
+<?php include '../config/checklogin.php'; ?>
+<?php $_SESSION['url'] = $_SERVER['REQUEST_URI']; ?>
+<?php ob_start(); ?>
 <?php 
-require_once 'config.php'; 
+include('../config/configView.php');
  
 $result = $db->query("SELECT image FROM dogs ORDER BY id DESC"); 
 ?>
