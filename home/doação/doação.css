@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    
+
+}
+
+.area-1{
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+.area-1 > img{
+    width: 400px;
+
+}
+.area-1 > p{
+    width: 600px;
+
+}
+.area-2 {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    
+}
+
+li {
+    margin-bottom: 10px;
+}
+.nubank{
+    font-size: 18px;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.nubank > img{
+    width: 20%;
+}
+
+
+  /* Estilos para telas maiores que 768 pixels */
+  @media only screen and (max-width: 999px) {
+    header {
+      padding: 20px;
+    }
+    img {
+      width: 20%;
+      margin-top: 20px;
+    }
+    .area-1, .area-2 {
+      width: 50%;
+      float: left;
+      margin-right: 10px;
+    }
+    .area-2 {
+      margin-right: 0;
+    }
+  }
+  
+  /* Estilos comuns a todas as telas */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nubank {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .nubank img {
+    margin-right: 10px;
+    width: 20vh;
+  }
+  
+  .nubank div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nubank p {
+    margin: 0;
+  }
+

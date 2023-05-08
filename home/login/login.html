@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjos Gaar</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div id="login">
+
+<form class ="form" method="post" action="login.php" name="signin-form">
+  <div><img src="../imagem/logo-record-dog.png" alt="" ></div>
+              <div class="form-element">
+                <div class="header">
+                  <h1>Login</h1>
+                </div>
+                <div class="content">
+                   <label>Usuário</label>
+                    <input type="text" id="usuario" name="username" pattern="[a-zA-Z0-9]+" required />
+                </div>
+              </div>
+              <div class="form-element">
+                <div class="content">
+                    <label>Senha</label>
+                    <input type="password" id ="senha" name="password" required />
+                </div>
+              </div>
+            <div class="footer">
+                <button type="submit" class="submit"  name="login" value="login">Entrar</button>
+               <p>Ainda não tem conta?</p> <a href="/home/register/register.html" class="register">Registrar-se</a>
+            </div>
+</form>
+</div>  <!--fecha a div do id login-->
+<p>Segredos..?</p> <a href="/home/dashboard/dashboard.php" class="register">Clique aqui!</a>
+</body>
+</html>
