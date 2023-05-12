@@ -99,6 +99,7 @@ p{
   display: block;
    visibility: visible;
    margin: 0;
+  
   }
   .button-donation{
     font-size: 100%;
@@ -259,26 +260,43 @@ p{
 }
 
 
-.caes-comunitarios{
-position: relative;
-display: block;
-clear: both;
-width: 100%;
-}
-.caes-comunitarios > h1{
-  text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color:#fff;
-
-}
-.caes-comunitarios > figure{
-  border: thin #c0c0c0 solid;
-  display: inline-block;
-  max-height: 265px;
-  max-width: 239px;
-  margin: 20px;
+.slider-container {
+  position: relative;
 }
 
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 265px;
+  height: 265px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 .apadrinhar {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,73 @@
+.dashboard {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005454;
+  }
+  
+  a.register {
+    display: inline-block;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  a.register:hover {
+    background-color: #005454;
+  }
+  
+  #imagem {
+    display: inline-block;
+    width: 100%;
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px;
+    text-align: center;
+  }

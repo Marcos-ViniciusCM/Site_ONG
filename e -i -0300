@@ -1,0 +1,393 @@
+[33mcommit 9f22b8a672ceee1cc91cbf8a17c3b3df6723f5f7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 9 23:38:40 2023 -0300
+
+    novo commit
+
+[33mcommit 7573df257335e9730b8c68c801441b9d68418b16[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 9 23:37:21 2023 -0300
+
+    Revert "Revert "novo commit""
+    
+    This reverts commit aebdda6cbf91d89ad96e5b1d1a72413bbd1023c9.
+
+[33mcommit aebdda6cbf91d89ad96e5b1d1a72413bbd1023c9[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 9 23:26:26 2023 -0300
+
+    Revert "novo commit"
+    
+    This reverts commit d50afa18e3ae6af5e7d905d01fd9ca6b3c34e3f9.
+
+[33mcommit d50afa18e3ae6af5e7d905d01fd9ca6b3c34e3f9[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 9 21:06:57 2023 -0300
+
+    novo commit
+
+[33mcommit ad941ebe3957429529257e44216a2828cbb04a1f[m
+Merge: 6f63b69 216957f
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 9 21:02:47 2023 -0300
+
+    Merge branch 'main' of https://github.com/LuanAur/AnjosGaar
+
+[33mcommit 6f63b69dc6735de20dc1b7cf450898df2dce2204[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 9 21:02:12 2023 -0300
+
+    ..
+
+[33mcommit 216957f15cab476c1b579e1468a150f3b3e883c8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Tue May 9 20:46:52 2023 -0300
+
+    Sql
+
+[33mcommit 170324454e32b86be36975d42d4bb6e847b2cfa6[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Mon May 8 20:47:47 2023 -0300
+
+    DB update
+
+[33mcommit 75d6c9de404c421e2ff01b56f282b8cf5df6eb52[m
+Merge: 87ed629 f078d6c
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Mon May 8 20:33:23 2023 -0300
+
+    Merge branch 'main' of https://github.com/LuanAur/AnjosGaar
+
+[33mcommit 87ed62921a1c3e3c9456054cafececc390789b40[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Mon May 8 20:32:24 2023 -0300
+
+    -Database Added
+    
+    Arquivos da database. (Semi desatualizados mas servem.)
+
+[33mcommit f078d6cf59f6c24758ee423d231787c54b296d2d[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon May 8 20:32:24 2023 -0300
+
+    commit
+
+[33mcommit d8a3bfbac4671eb661c9f36f868acd7e0b1b572e[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon May 8 20:30:19 2023 -0300
+
+    update cheking login
+
+[33mcommit 1043693384e56c044e16aff27533424b207f1cc2[m
+Merge: 5013a8d e413566
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon May 8 20:28:25 2023 -0300
+
+    Merge branch 'main' of https://github.com/LuanAur/AnjosGaar
+
+[33mcommit e413566e3648545cd2472ebc8fd52f1048e53f62[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Mon May 8 20:23:05 2023 -0300
+
+    Revert "ignorar"
+    
+    This reverts commit ca5ca8b27ee45f9aa8048defa1e3d8457f2398b1.
+
+[33mcommit 5013a8df57362e280cb88fd7bfdd23a9b0b159a1[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon May 8 20:13:17 2023 -0300
+
+    Revert "ignorar"
+    
+    This reverts commit ca5ca8b27ee45f9aa8048defa1e3d8457f2398b1.
+
+[33mcommit ca5ca8b27ee45f9aa8048defa1e3d8457f2398b1[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue May 2 21:41:03 2023 -0300
+
+    ignorar
+
+[33mcommit 1cdf62003cbe9d76a0ad3f9df07d8ecbde123635[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Mon May 1 23:27:43 2023 -0300
+
+    -Pastas renomeadas e arquivos de configuração ajustados.
+    -Dashboard agora só é acessível por login.
+    -Adicionado link do instagram.
+    -"Voluntários" adicionado a DB, aplicantes são visíveis pelo dashboard.
+
+[33mcommit b5fb6b524dc6b67c228d77cebe9fb59481bf1beb[m
+Merge: ffe2f66 0b453d3
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Fri Apr 28 16:39:23 2023 -0300
+
+    Merge branch 'main' of https://github.com/LuanAur/AnjosGaar
+
+[33mcommit ffe2f6669a96b54a61e47e07e944a0ce7a6c20ea[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Fri Apr 28 16:39:08 2023 -0300
+
+    pagina de doaçao feita
+
+[33mcommit 0b453d31655a510848482664962e9aad7defb972[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Wed Apr 26 20:08:49 2023 -0300
+
+    Update README.md
+
+[33mcommit b648d59e7485c011feed6c011c326701037a4e5c[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Apr 25 12:04:52 2023 -0300
+
+    criei a doacao
+
+[33mcommit bbaa9c9bfa2376b13511bf1ce1a0879b8a67b8ff[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Apr 24 14:43:55 2023 -0300
+
+    alteraçoes no main
+
+[33mcommit 88e8315e70e3dde443cbf9dbd549157292d5e62c[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Apr 24 14:21:30 2023 -0300
+
+    Revert "ignorar"
+    
+    This reverts commit 963064ca939ffb97b4175aaeb93f711941fde3b6.
+
+[33mcommit 963064ca939ffb97b4175aaeb93f711941fde3b6[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Apr 24 14:21:19 2023 -0300
+
+    ignorar
+    
+    ignorar
+
+[33mcommit 7e4231362e067ee27bf20ffc26797d1d49f2a651[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Apr 18 14:04:58 2023 -0300
+
+    -Pasta login renomeada.
+    -Config trocado.
+    -Login/Register alterados para funcionar novamente.
+    -Pasta e função de upload/view criadas.
+
+[33mcommit 2e028f8c1bfc1109a50f24386fda07f675493bbd[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Thu Apr 13 17:05:58 2023 -0300
+
+    criei voluntarios
+
+[33mcommit 961cdbdadb8c41acdc0a2b2f4583e1682445f448[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Apr 10 21:21:00 2023 -0300
+
+    voluntarios
+
+[33mcommit 35ed1ba2ad5c32c4f730a224f3c1db1ab9a3b87b[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Apr 4 15:55:26 2023 -0300
+
+    alteraçoes no login,registro e main
+
+[33mcommit 55e972d981b272c0e42f6f5693df14805c18546a[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Wed Mar 29 20:43:54 2023 -0300
+
+    alteraçoes
+
+[33mcommit de9023772085b8b227ce3a1d518d261c82dda008[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Wed Mar 29 20:43:39 2023 -0300
+
+    Revert "alteraçao"
+    
+    This reverts commit 9391c0071f9063cbd8dbe5bac758ff8b2a91da49.
+
+[33mcommit 35d99f1944e554bb8a534912bbbfc62da3938c5a[m
+Merge: 9391c00 a0cad89
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Mar 28 20:35:01 2023 -0300
+
+    alteracao
+
+[33mcommit 9391c0071f9063cbd8dbe5bac758ff8b2a91da49[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Mar 28 20:30:52 2023 -0300
+
+    alteraçao
+
+[33mcommit a0cad89a168256cd0d39510fd3e9f20891239fa9[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Thu Mar 23 19:15:41 2023 -0300
+
+    ajust
+
+[33mcommit f00b120f8dc689d8cac52a30bc22af7c40c6de1a[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Thu Mar 23 19:05:12 2023 -0300
+
+    css register
+
+[33mcommit 1335b5fe1315a85c288bf279f7c587f23901e7dd[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Wed Mar 22 14:05:25 2023 -0300
+
+    alteracoes
+
+[33mcommit dcb41093a24d3858bef43c662ed2ae096dfdf545[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Wed Mar 22 13:50:48 2023 -0300
+
+    estilizei a pagina de login
+
+[33mcommit 7729df0688c1a94cc9741e5eec3b96e7ad516e83[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Wed Mar 22 13:11:39 2023 -0300
+
+    Update Untitled 1.odt
+
+[33mcommit 8cf20e99fa16df8c6d65ebe970bb101060d4bbd1[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Mar 21 21:05:14 2023 -0300
+
+    alteracoes de pastas
+
+[33mcommit d34d7d20086f7f9520a86934cf5890a9a5993d34[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Mar 20 18:27:29 2023 -0300
+
+    Update style.css
+
+[33mcommit 2a981ddb28c0ccf4295d8880f731d564a56bdf7b[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Thu Mar 16 09:36:33 2023 -0300
+
+    ajustei o sobre da pagina
+
+[33mcommit 52477740c92568f10b21ef271e64803ad2b66a84[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Wed Mar 15 13:27:15 2023 -0300
+
+    alguns ajuste,e começo da estilização do sobre do site
+
+[33mcommit 1f0e33c0068212734efba1f5d1e288bd29d04640[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Wed Mar 15 00:56:13 2023 -0300
+
+    Php que cuida do registro.
+
+[33mcommit 718a91664e7434fba2ee70bcaa0f20c56971b60a[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Wed Mar 15 00:56:00 2023 -0300
+
+    Php que cuida do login.
+
+[33mcommit 0da9395866f7f715ed2c6438e65a85bc61762399[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Wed Mar 15 00:55:38 2023 -0300
+
+    Página de login e registro bem barebones.
+
+[33mcommit 7d1a1a8a8604df75a38ac18b1b4f7524168d6db2[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Wed Mar 15 00:54:06 2023 -0300
+
+    Adicionado aba de login temporária.
+
+[33mcommit 3fb2fae3fac0c18b7871297d06d6f22e75f67b9e[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Wed Mar 15 00:53:34 2023 -0300
+
+    Configura a localização da database.
+
+[33mcommit 22c136111155b5f5e29cf526721590bcf06163a7[m
+Merge: 9083e19 d634800
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Mar 14 19:05:49 2023 -0300
+
+    Merge branch 'main' of https://github.com/LuanAur/AnjosGaar
+
+[33mcommit 9083e192c788677ae42a85b513427f9da3ff1fec[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Tue Mar 14 19:04:14 2023 -0300
+
+    arrumei o navbar para a versao mobile
+
+[33mcommit d634800ecd111f69b31dfd83a39f458a962fa5d5[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Mar 14 15:42:29 2023 -0300
+
+    Teste
+
+[33mcommit 4d3e35269e101d56d12b0c065a017d919ad952f4[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Mar 14 15:40:04 2023 -0300
+
+    Teste
+
+[33mcommit 525318c6cb14bbb7b4381ebda276160ddf189dc2[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Mar 13 13:10:29 2023 -0300
+
+    Update style.css
+
+[33mcommit 0533c3b77371b4b07a87e071b0094ee03847bedc[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Mon Mar 13 13:03:53 2023 -0300
+
+    ajuste da navbar mobile
+
+[33mcommit 9de72e172701200f71a1df330843da6363d928e0[m
+Author: Pedra-910 <MarcosViniciusCM@outlook.com>
+Date:   Sun Mar 12 18:53:52 2023 -0300
+
+    comecei a fazer a nav bar,e troquei todo o header da pagina
+
+[33mcommit 2b6d354b38759c864606b4cd151475a6f0291e60[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Wed Mar 8 10:08:37 2023 -0300
+
+    Requerimentos passados.
+
+[33mcommit 9c854a97e796d3d5f569a484903945ec4e55a617[m
+Author: Pedra-910 <106350785+Pedra-910@users.noreply.github.com>
+Date:   Wed Mar 8 09:56:01 2023 -0300
+
+    Site Anjos Gaar
+
+[33mcommit 3d016518cdca6b26ef25bb6aa20468b292d09cfb[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Mar 7 21:26:07 2023 -0300
+
+    Word document added
+
+[33mcommit b5c8aea0a73b6a915c0e8d49322f13878255ea8a[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Mar 7 20:54:24 2023 -0300
+
+    Mudaças no README
+
+[33mcommit 72e408711b87fdfb2b8bccf10b7dc9f995e100cc[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Mar 7 20:51:47 2023 -0300
+
+    Editei readme
+
+[33mcommit 98ebdd5985922c7516377441bc6610b4519d15c7[m
+Author: aurum <luanaugusto828@gmail.com>
+Date:   Tue Mar 7 20:50:37 2023 -0300
+
+    Changes to README.md
+
+[33mcommit acdabcfdbfbb0e2e5591dcbcda7323bd6cb741d6[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Tue Mar 7 20:13:32 2023 -0300
+
+    Update README.md
+
+[33mcommit 8f6f172db4bfa5607a3737405d9897e3d8223fdd[m
+Author: LuanAur <127259655+LuanAur@users.noreply.github.com>
+Date:   Tue Mar 7 19:49:46 2023 -0300
+
+    Initial commit

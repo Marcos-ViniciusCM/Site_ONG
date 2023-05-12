@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #181a1f;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
 h1 {
     font-size: 24px;
     margin-top: 0px;
+    color: #fff;
 }
 
 img {
@@ -35,9 +37,9 @@ section {
     width: 400px;
 
 }
-.area-1 > p{
+.area-1 > h3{
     width: 600px;
-
+    color: #fff;
 }
 .area-2 {
     width: 60%;
@@ -48,10 +50,12 @@ section {
 h2 {
     font-size: 20px;
     margin-top: 0;
+    color: #fff;
 }
 
 p {
     margin-top: 10px;
+    color: #fff;
 }
 
 ul {
