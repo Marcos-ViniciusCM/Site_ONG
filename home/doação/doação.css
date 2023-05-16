@@ -5,15 +5,13 @@ body {
     background-color: #181a1f;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-}
 
-h1 {
+
+h2 {
     font-size: 24px;
     margin-top: 0px;
     color: #fff;
+    
 }
 
 img {
@@ -24,7 +22,7 @@ img {
 
 section {
     padding: 20px;
-    
+    width: 100%;
 
 }
 
@@ -34,7 +32,7 @@ section {
     box-sizing: border-box;
 }
 .area-1 > img{
-    width: 400px;
+    width: 40vh;
 
 }
 .area-1 > h3{
@@ -51,6 +49,7 @@ h2 {
     font-size: 20px;
     margin-top: 0;
     color: #fff;
+    width: 100%;
 }
 
 p {
@@ -78,10 +77,13 @@ li {
 .nubank > img{
     width: 20%;
 }
+h1{
+  color:#fff
+}
 
 
   /* Estilos para telas maiores que 768 pixels */
-  @media only screen and (max-width: 999px) {
+  @media screen and (max-width: 768px) {
     header {
       padding: 20px;
     }
@@ -97,19 +99,21 @@ li {
     .area-2 {
       margin-right: 0;
     }
+    .qrcode{
+      position: fixed;
+    }
   }
   
   /* Estilos comuns a todas as telas */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
+ 
   header {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+  }
+  .qrcode{
+    position: relative;
+    max-width:40vh;
   }
   
   h1 {
