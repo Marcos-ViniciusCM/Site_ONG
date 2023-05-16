@@ -29,7 +29,7 @@
 
                 $_SESSION['username'] = $result['id'];
                 
-                header("Location: http://localhost/home/dashboard/dashboard.php ");
+                header("Location: http://localhost/anjos/home/dashboard/dashboard.php ");
 
             } else {
 

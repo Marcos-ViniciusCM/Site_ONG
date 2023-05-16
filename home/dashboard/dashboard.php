@@ -4,7 +4,6 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    !!
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <div class="dashboard">
@@ -17,10 +16,14 @@
     <div class="input-group">
     <label>Nome do cachorro:</label>
     <input type="text" name="dname">
+    <label>Sexo:</label>
+    <input type="text" name="sex">
+    <label>Descrição:</label>
+    <input type="text" name="description">
     <input type="submit" name="submit" value="Upload">
 </div>
 </form>
-<p>Quer ver seus uploads?</p> <a href="/home/dashboard/view.php" class="register">Clique aqui!</a>   
-<p>Quer ver os voluntários?</p> <a href="/home/dashboard/volunView.php" class="register">Clique aqui!</a> 
+<p>Quer ver seus uploads?</p> <a href="/anjos/home/dashboard/view.php" class="register">Clique aqui!</a>   
+<p>Quer ver os voluntários?</p> <a href="/anjos/home/dashboard/volunView.php" class="register">Clique aqui!</a> 
 </div>
 </html>

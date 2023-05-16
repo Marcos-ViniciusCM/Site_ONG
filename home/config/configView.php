@@ -1,4 +1,5 @@
 <?php   
+include 'C:\xampp\php\pear';
 $dbHost     = "localhost";  
 $dbUsername = "root";  
 $dbPassword = "";  

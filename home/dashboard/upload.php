@@ -1,6 +1,6 @@
 <?php 
 session_start();
-require_once '../config/config.php'; 
+require_once '../config/configView.php'; 
 $status = $statusMsg = ''; 
 if(isset($_POST["submit"])){ 
     $status = 'error'; 
@@ -8,13 +8,15 @@ if(isset($_POST["submit"])){
         $fileName = basename($_FILES["image"]["name"]); 
         $fileType = pathinfo($fileName, PATHINFO_EXTENSION); 
          
-        $allowTypes = array('jpg','png','jpeg','gif'); 
+        $allowTypes = array('jpg','png','jpeg','gif','webp'); 
         if(in_array($fileType, $allowTypes)){ 
             $dname = $_POST['dname'];
+            $sex = $_POST['sex'];
+            $description = $_POST['description'];
             $image = $_FILES['image']['tmp_name']; 
             $imgContent = addslashes(file_get_contents($image)); 
          
-            $insert = $db->query("INSERT into dogs (dname, image, created) VALUES ('$dname','$imgContent', NOW())"); 
+            $insert = $db->query("INSERT into dogs (dname, sex, description, image, created) VALUES ('$dname','$description', '$sex','$imgContent', NOW())"); 
             
              
             if($insert){ 
