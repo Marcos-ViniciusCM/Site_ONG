@@ -1,0 +1,34 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gallery{
+  height:280px;
+  width: 280px;
+  background-color: blue;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  
+}
+.imagem{
+    max-width: 250px;
+    max-height: 180px;
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+.nome > p{
+    font-size: 20px;
+}
+
+.nome-cachorro{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing:auto;
+}
+
+p{
+    display: inline;
+    letter-spacing: auto;
+}
