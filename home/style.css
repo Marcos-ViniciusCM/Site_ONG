@@ -123,12 +123,13 @@ p{
 }
 .instagram {
   height: 5vh;
+  vertical-align: top;
 }
 
 .instagram > img{
   height: 100%;
   align-items: left;
-  
+  vertical-align:top;
   
 }
 

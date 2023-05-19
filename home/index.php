@@ -5,7 +5,7 @@ error_reporting(E_ALL ^ E_WARNING);
 require_once '../home/config/configView.php';
 $result = $db->query("SELECT * FROM dogs"); 
 ?>
-<html lang="pt">
+<html lang="pt-br" xml:lang="pt-br>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@ $result = $db->query("SELECT * FROM dogs");
 </div>
                                                             <!--nav bar desktop-->
    <ul class="nav-list">
-       <li><a href="https://www.instagram.com/anjosgaar/"><div class="instagram"><img src="imagem/instagram.png"></div></a></li>
+       <li><a href="https://www.instagram.com/anjosgaar/"><div class="instagram">Instagram Gaar<img src="imagem/instagram.png"></div></a></li>
         <li><a href="adote/adote.php" >Adote</a></li>
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>
         <li><a href="" >Cães comunitarios</a></li>
@@ -67,6 +67,7 @@ $result = $db->query("SELECT * FROM dogs");
           <img src="imagem/mao cachorro.png">
           <h1>CÃES COMUNITARIOS</h1>
           <p>Cães Comunitários são cães de rua que não possuem donos, e são acolhidos e cuidados pela comunidade.</p>
+          <a src="">Saiba Mais</a>
     </div>
     
     <div class="voluntarios">
