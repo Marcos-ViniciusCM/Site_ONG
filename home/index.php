@@ -5,7 +5,7 @@ error_reporting(E_ALL ^ E_WARNING);
 require_once '../home/config/configView.php';
 $result = $db->query("SELECT * FROM dogs"); 
 ?>
-<html lang="pt-br" xml:lang="pt-br>
+<html lang="pt-br" xml:lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@ $result = $db->query("SELECT * FROM dogs");
 </div>
                                                             <!--nav bar desktop-->
    <ul class="nav-list">
-       <li><a href="https://www.instagram.com/anjosgaar/"><div class="instagram">Instagram Gaar<img src="imagem/instagram.png"></div></a></li>
+       <li><a href="https://www.instagram.com/anjosgaar/"><div class="instagram"><img src="imagem/instagram.png"> Instagram Gaar</div></a></li>
         <li><a href="adote/adote.php" >Adote</a></li>
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>
         <li><a href="" >Cães comunitarios</a></li>
@@ -100,7 +100,7 @@ $result = $db->query("SELECT * FROM dogs");
       <div class="topico-apadrinhar">
       <h1>APESAR DE NÃO TER CONDIÇÕES DE ADOTAR, QUERO AJUDAR!</h1>
       <img src="imagem/doacao (1).png">
-      <p>Ao apadrinhar um cachorro, você estará contribuindo com abrigo, alimentação, cuidados veterinários e amor para um animalzinho que está aguardando por uma família definitiva. Você pode se tornar um herói 
+      <p>Ao doar, você estará contribuindo com abrigo, alimentação, cuidados veterinários e amor para um animalzinho que está aguardando por uma família definitiva. Você pode se tornar um herói 
         para esse cãozinho, oferecendo-lhe a chance de viver uma vida feliz e saudável enquanto ele aguarda por sua adoção.</p>
      <a href="">Doe</a>
       </div>

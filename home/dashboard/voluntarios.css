@@ -5,43 +5,34 @@ body {
     margin: 0;
     padding: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+      align-items: center;
+      justify-content: center;
   }
 
   h1 {
     text-align: center;
   }
 
-  .galerry{
+  .voluntarios {
     background-color: #26282D;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+    margin: auto;
+    border: #fff 2px solid;
   }
 
-  .imagem {
-    flex: 0 0 200px;
-    margin-right: 20px;
-  }
-
-  .dog-sobre {
-    flex: 1;
-  }
-
-  .dog-nome{
+  .voluntarios-nome {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
   }
 
-  .dog-sexo {
+  .voluntarios-telefone {
     font-size: 16px;
     margin-bottom: 10px;
   }
 
-  .dog-sobre {
+  .volunteer-endererco {
     font-size: 14px;
   }
