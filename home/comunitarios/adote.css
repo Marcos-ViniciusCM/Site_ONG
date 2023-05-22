@@ -1,0 +1,47 @@
+body {
+    background-color: #181A1F;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .galerry{
+    background-color: #26282D;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .imagem {
+    flex: 0 0 200px;
+    margin-right: 20px;
+  }
+
+  .dog-sobre {
+    flex: 1;
+  }
+
+  .dog-nome{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .dog-sexo {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .dog-sobre {
+    font-size: 14px;
+  }

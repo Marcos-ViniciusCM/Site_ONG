@@ -1,6 +1,6 @@
 <?php   
-error_reporting(E_ALL ^ E_WARNING);
-include 'C:\xampp\php\pear';
+
+
 $dbHost     = "localhost";  
 $dbUsername = "root";  
 $dbPassword = "";  

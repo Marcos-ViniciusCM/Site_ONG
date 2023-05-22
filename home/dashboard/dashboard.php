@@ -10,8 +10,11 @@
 <input type="hidden" name="redirurl" value="<? echo $_SERVER['HTTP_REFERER']; ?>" />
 <form action="upload.php" method="post" enctype="multipart/form-data">
   <div class="input-group">
-    <label id="imagem">Selecione uma imagem:</label>
+    <label id="imagem">Selecione ao menos uma imagem:</label>
     <input type="file" name="image">
+    <input type="file" name="image2">
+    <input type="file" name="image3">
+    <input type="file" name="image4">
     </div>
     <div class="input-group">
     <label>Nome do cachorro:</label>
@@ -20,6 +23,7 @@
     <input type="text" name="sex">
     <label>Descrição:</label>
     <input type="text" name="description">
+    <label>É um cachorro comunitário: <input type="radio" name="comunitario"></label>
     <input type="submit" name="submit" value="Upload">
 </div>
 </form>

@@ -1,7 +1,6 @@
 <?php 
-error_reporting(E_ALL ^ E_WARNING);
 include ('../config/configView.php');
-$result = $db->query("SELECT * FROM dogs ORDER BY id DESC"); 
+$result = $db->query("SELECT * FROM dogsC ORDER BY id DESC"); 
 ?>
 <head><link rel="stylesheet" href="adote.css"></head>
 <h1>Amigos de patas</h1>

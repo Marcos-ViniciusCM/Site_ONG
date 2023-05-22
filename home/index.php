@@ -1,7 +1,6 @@
 
 <?php ob_start(); ?>
 <?php 
-error_reporting(E_ALL ^ E_WARNING);
 require_once '../home/config/configView.php';
 $result = $db->query("SELECT * FROM dogs"); 
 ?>
@@ -33,7 +32,7 @@ $result = $db->query("SELECT * FROM dogs");
        <li><a href="https://www.instagram.com/anjosgaar/"><div class="instagram"><img src="imagem/instagram.png"> Instagram Gaar</div></a></li>
         <li><a href="adote/adote.php" >Adote</a></li>
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>
-        <li><a href="" >Cães comunitarios</a></li>
+        <li><a href="comunitarios/comunitarios.php" >Cães comunitarios</a></li>
         <li><a href="register/register.html" >Registro</a></li>
     </ul>
     <a class="button-donation" href="doa%C3%A7%C3%A3o/doa%C3%A7%C3%A3o.html" >Doe</a></li>
@@ -102,9 +101,8 @@ $result = $db->query("SELECT * FROM dogs");
       <img src="imagem/doacao (1).png">
       <p>Ao doar, você estará contribuindo com abrigo, alimentação, cuidados veterinários e amor para um animalzinho que está aguardando por uma família definitiva. Você pode se tornar um herói 
         para esse cãozinho, oferecendo-lhe a chance de viver uma vida feliz e saudável enquanto ele aguarda por sua adoção.</p>
-     <a href="">Doe</a>
+      <a href="">Doe</a>
       </div>
     </div>  
-
 </body>
 </html>
