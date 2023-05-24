@@ -1,47 +1,80 @@
 body {
-    background-color: #181A1F;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  background-color: #181A1F;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Adicionado para alinhar verticalmente os elementos */
+  align-items: center;
+  justify-content: center;
+}
 
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  .galerry{
-    background-color: #26282D;
+.gallery {
+  background-color: #3b283b;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; 
+ /*flex-direction:*/
+  min-width: 900px;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 0px; /* Adicionado para remover a margem superior padrão */
+}
+
+.imagem {
+  flex: 0 0 200px;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Adicionado espaçamento entre as imagens */
+}
+
+.nome {
+  margin: 0;
+  top: 0px;
+  text-align: center;
+}
+.conteudos{
+  flex-direction:column;
+}
+
+.dog-sobre {
+  flex: 1;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.dog-nome {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding: 5px; /*  destacar o nome */
+  text-align: center;
+}
+
+.dog-sexo {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media (max-width:999px){
+  .gallery {
+    background-color: #3b283b;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap; 
+    min-width: auto;
   }
-
-  .imagem {
-    flex: 0 0 200px;
-    margin-right: 20px;
-  }
-
-  .dog-sobre {
-    flex: 1;
-  }
-
-  .dog-nome{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .dog-sexo {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  .dog-sobre {
-    font-size: 14px;
-  }
+}

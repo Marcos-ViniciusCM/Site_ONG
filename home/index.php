@@ -82,19 +82,27 @@ $result = $db->query("SELECT * FROM dogs");
           </div>
         </div>
       </div>
-<?php if($result->num_rows > 0){ ?> 
-       <div class="slider-container">
-        <div class="slider">
-        <?php while($row = $result->fetch_assoc()){ ?> 
-            <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
+      <!--carrosel-->
+      <?php if($result->num_rows > 0) ?> 
+      <h1>Cães de adoção</h1>
+<div class="container">
+  <button class="arrow-left control" aria-label="Previous image">◀</button>
+  <button class="arrow-right control" aria-label="Next Image">▶</button>
+  <div class="gallery-wrapper">
+    <div class="gallery">
+    <?php while($row = $result->fetch_assoc()){ ?> 
+            <img  class="item current-item" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
         <?php } ?> 
-        </div>
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
-      </div>
+    </div>
+  </div>
+</div>
+<?php if($result->num_rows > 0){ ?> 
 <?php }else{ ?> 
     <p class="status error">Imagens não encontradas...</p> 
 <?php } ?>
+
+
+<!-- final carrosel-->
     <div class="apadrinhar">
       <div class="topico-apadrinhar">
       <h1>APESAR DE NÃO TER CONDIÇÕES DE ADOTAR, QUERO AJUDAR!</h1>

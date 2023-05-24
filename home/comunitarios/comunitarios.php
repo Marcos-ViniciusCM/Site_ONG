@@ -8,12 +8,13 @@ $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC");
         <?php while($row = $result->fetch_assoc()){ ?> 
         <div class="gallery" id="galeria"> 
             <img class="imagem"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
-            <div class="dog-nome"><span class="nome"><p>Nome:</p></span><p class="nome-cachorro"> <?php echo $row['dname']; ?> </p></div>
+        <div class="conteudo">
+            <div class="dog-nome"><span class="nome"></span> <?php echo $row['dname']; ?> </div>
             <br>
-            <div class="dog-sexo"><span><p class="sexo"></p>Sexo:</p></span> <p><?php echo $row['sex']; ?></p></div>
+            <div class="dog-sexo"><span>Sexo:</span> <?php echo $row['sex']; ?></div>
             <br>
             <div class="dog-sobre"><span>Sobre</span> <?php echo $row['description']; ?></div>
-            <br>
+            <br></div>
         </div>
         <?php } ?> 
 <?php }else{ ?> 
