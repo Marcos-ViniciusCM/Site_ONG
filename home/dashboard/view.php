@@ -1,30 +1,30 @@
-<?php include '../config/checklogin.php'; ?>
-<?php $_SESSION['url'] = $_SERVER['REQUEST_URI']; ?>
-<?php ob_start(); ?>
-<?php 
-include('../config/configView.php');
- 
-$result = $db->query("SELECT image FROM dogs ORDER BY id DESC");
-$result2 = $db->query("SELECT image2 FROM dogs ORDER BY id DESC");
-$result3 = $db->query("SELECT image3 FROM dogs ORDER BY id DESC");
-$result4 = $db->query("SELECT image4 FROM dogs ORDER BY id DESC");
-?>
 
-<?php if($result->num_rows > 0){ ?> 
-    <div class="gallery"> 
+<?php 
+include ('../config/configView.php');
+$result = $db->query("SELECT * FROM dogs ORDER BY id DESC"); 
+?>
+<head><link rel="stylesheet" href="adote.css"></head>
+<h1>Amigos de patas</h1>
+<?php if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os cachorros-->
         <?php while($row = $result->fetch_assoc()){ ?> 
-            <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
+        <div class="gallery" id="galeria"> 
+            <img class="imagem"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
+            <div class="dog-nome"><span class="nome"><p>Nome:</p></span><p class="nome-cachorro"> <?php echo $row['dname']; ?> </p></div>
+            <br>
+            <div class="dog-sexo"><span><p class="sexo"></p>Sexo:</p></span> <p><?php echo $row['sex']; ?></p></div>
+            <br>
+            <div class="dog-sobre"><span>Sobre</span> <?php echo $row['description']; ?></div>
+            <form action="delete.php" method="post">
+            <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
+            <input type ="text" name ="alterarDes">
+            <input type ="submit" name ="alterarDesc" value="Alterar">
+            </form>
+            <form action="delete.php" method="post">
+            <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
+            <input type ="submit" name ="delete" value="Delete">
+            </form>
+        </div>
         <?php } ?> 
-        <?php while($row = $result2->fetch_assoc()){ ?>
-            <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image2']); ?>" /> 
-        <?php } ?>
-        <?php while($row = $result3->fetch_assoc()){ ?>
-            <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image3']); ?>" /> 
-        <?php } ?>
-        <?php while($row = $result4->fetch_assoc()){ ?>
-            <img src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image4']); ?>" /> 
-        <?php } ?>
-    </div> 
 <?php }else{ ?> 
     <p class="status error">Imagens não encontradas...</p> 
 <?php } ?>

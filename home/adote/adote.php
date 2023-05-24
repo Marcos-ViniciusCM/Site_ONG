@@ -1,6 +1,4 @@
 <?php 
-
-error_reporting(E_ALL ^ E_WARNING);
 include ('../config/configView.php');
 $result = $db->query("SELECT * FROM dogs ORDER BY id DESC"); 
 ?>

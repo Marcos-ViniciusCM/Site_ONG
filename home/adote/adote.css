@@ -44,9 +44,13 @@ h1 {
 .nome {
   margin: 0;
   top: 0px;
+  text-align: center;
+  align-item:center;
 }
 .conteudos{
   flex-direction:column;
+  text-align:center;
+  
 }
 
 .dog-sobre {
@@ -61,6 +65,7 @@ h1 {
   margin-bottom: 0px;
   padding: 5px; /*  destacar o nome */
   text-align: center;
+  align-item:center;
 }
 
 .dog-sexo {
