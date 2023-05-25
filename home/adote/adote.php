@@ -17,9 +17,18 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <div class="dog-sexo"><span>Sexo:</span><?php echo $row['sex']; ?></div>
             <br>
             <div class="dog-sobre"><span>Sobre</span> <?php echo $row['description']; ?></div>
-            <br></div> 
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=553798692510&text=Olá!Estou interessado em adotar o/a <?php echo $row['dname']; ?>.." target="_blank">Clique aqui para entrar em contato via WhatsApp</a>
+</div> 
         </div>
         <?php } ?> 
 <?php }else{ ?> 
     <p class="status error">Imagens não encontradas...</p> 
 <?php } ?>
+
+
+
+
+
+
+
