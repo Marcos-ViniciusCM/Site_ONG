@@ -24,6 +24,7 @@ h1 {
   flex-wrap: wrap; 
  /*flex-direction:*/
   min-width: 900px;
+  max-width: 900px;
 }
 
 h1 {
@@ -50,6 +51,7 @@ h1 {
   flex: 1;
   padding: 20px;
   font-size: 14px;
+  max-width: 540px;
 }
 
 .dog-nome {
@@ -76,5 +78,20 @@ h1 {
     align-items: center;
     flex-wrap: wrap; 
     min-width: auto;
+  }
+  .imagem{
+    max-width: 100%;
+  
+  }
+  .dog-nome {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding: 5px; /*  destacar o nome */
+    text-align: center;
+  }
+  .dog-sobre{
+    font-size: 2vh;
+    text-align: justify;
   }
 }
