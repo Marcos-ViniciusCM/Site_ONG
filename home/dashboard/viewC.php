@@ -1,7 +1,6 @@
-
 <?php 
 include ('../config/configView.php');
-$result = $db->query("SELECT * FROM dogs ORDER BY id DESC"); 
+$result = $db->query("SELECT * FROM dogsC ORDER BY id DESC"); 
 ?>
 <head><link rel="stylesheet" href="adote.css"></head>
 <h1>Amigos de patas</h1>
@@ -12,19 +11,19 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <div class="conteudos">
             <div class="dog-nome"><span class="nome"><?php echo $row['dname']; ?>
             <div class="dog-sexo">
-            <form action="delete.php" method="post">
+            <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar nome:</span><br> 
             <input type ="text" name ="alterarNm">
             <input type ="submit" name ="alterarName"  class="alterar" value="Alterar">
             </form>
-            <form action="delete.php" method="post">
+            <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar sexo:</span><br> 
             <input type ="text" name ="alterarSx">
             <input type ="submit" name ="alterarSex"  class="alterar" value="Alterar">
             </form>
-            <form action="delete.php" method="post">
+            <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar descrição:</span><br> 
             <input type ="text" name ="alterarDes">
@@ -33,10 +32,10 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Adicionar imagem:</span><br>
-            <input type="file" name="image">
+            <input type="file" name="img">
             <input type ="submit" name ="alterarImg"  class="alterar" value="Alterar">
             </form>
-            <form action="delete.php" method="post">
+            <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <input type ="submit" class="deletar" name ="delete" value="Deletar">
             </div></div>

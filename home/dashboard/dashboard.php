@@ -23,11 +23,12 @@
     <input type="text" name="sex">
     <label>Descrição:</label>
     <input type="text" name="description">
-    <label>É um cachorro comunitário: <input type="radio" name="comunitario"></label>
+    <label>É um cachorro comunitário: <input type="checkbox" name="comunitario"></label>
     <input type="submit" name="submit" value="Upload">
 </div>
 </form>
-<p>Quer ver seus uploads?</p> <a href="/anjos/home/dashboard/view.php" class="register">Clique aqui!</a>   
+<p>Quer alterar a aba de adoção?</p> <a href="/anjos/home/dashboard/view.php" class="register">Clique aqui!</a> 
+<p>Quer alterar a aba de cães comunitários?</p> <a href="/anjos/home/dashboard/viewC.php" class="register">Clique aqui!</a> 
 <p>Quer ver os voluntários?</p> <a href="/anjos/home/dashboard/volunView.php" class="register">Clique aqui!</a> 
 </div>
 </html>

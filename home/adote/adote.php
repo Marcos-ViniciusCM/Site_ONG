@@ -14,11 +14,11 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <div class="conteudos"> 
             <div class="dog-nome"><span class="nome"></span> <?php echo $row['dname']; ?> </div>
         <br>
-            <div class="dog-sexo"><span>Sexo:</span><?php echo $row['sex']; ?></div>
+            <div class="dog-sexo"><span></span><?php echo $row['sex']; ?></div>
             <br>
-            <div class="dog-sobre"><span>Sobre</span> <?php echo $row['description']; ?></div>
+            <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
             <br>
-            <a href="https://api.whatsapp.com/send?phone=553798692510&text=Olá!Estou interessado em adotar o/a <?php echo $row['dname']; ?>.." target="_blank">Clique aqui para entrar em contato via WhatsApp</a>
+            <a href="https://api.whatsapp.com/send?phone=553798692510&text= Olá! Estou interessado em adotar o/a <?php echo $row['dname']; ?>.." target="_blank">Clique aqui para entrar em contato via WhatsApp</a>
 </div> 
         </div>
         <?php } ?> 

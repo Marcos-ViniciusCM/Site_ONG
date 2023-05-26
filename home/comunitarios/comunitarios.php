@@ -11,9 +11,9 @@ $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC");
         <div class="conteudo">
             <div class="dog-nome"><span class="nome"></span> <?php echo $row['dname']; ?> </div>
             <br>
-            <div class="dog-sexo"><span>Sexo:</span> <?php echo $row['sex']; ?></div>
+            <div class="dog-sexo"><span></span> <?php echo $row['sex']; ?></div>
             <br>
-            <div class="dog-sobre"><span>Sobre</span> <?php echo $row['description']; ?></div>
+            <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
             <br></div>
         </div>
         <?php } ?> 

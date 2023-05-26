@@ -33,7 +33,6 @@ $result = $db->query("SELECT * FROM dogs");
         <li><a href="adote/adote.php" >Adote</a></li>
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>
         <li><a href="comunitarios/comunitarios.php" >Cães comunitarios</a></li>
-        <li><a href="register/register.html" >Registro</a></li>
     </ul>
     <a class="button-donation" href="doa%C3%A7%C3%A3o/doa%C3%A7%C3%A3o.html" >Doe</a></li>
    </div> 
@@ -91,7 +90,7 @@ $result = $db->query("SELECT * FROM dogs");
   <div class="gallery-wrapper">
     <div class="gallery">
     <?php while($row = $result->fetch_assoc()){ ?> 
-            <img  class="item current-item" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
+            <img class="item current-item" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
         <?php } ?> 
     </div>
   </div>
