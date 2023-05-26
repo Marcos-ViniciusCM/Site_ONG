@@ -22,7 +22,7 @@ if(isset($_POST["submit"])){
         $fileType4 = pathinfo($fileName4, PATHINFO_EXTENSION);
     }
          
-        $allowTypes = array('jpg','png','jpeg','gif','webp'); 
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
         if(in_array($fileType, $allowTypes)){ 
             $dname = $_POST['dname'];
             $sex = $_POST['sex'];
@@ -55,7 +55,7 @@ if(isset($_POST["submit"])){
                 $statusMsg = "O upload de arquivo falhou, tente novamente."; 
             }  
         }else{ 
-            $statusMsg = 'Apenas arquivos JPG, JPEG, PNG, WEBP e GIF são compatíveis.'; 
+            $statusMsg = 'Apenas arquivos JPG, JPEG, PNG, WEBP, AVIF e GIF são compatíveis.'; 
         } 
     }else{ 
         $statusMsg = 'Selecione uma imagem para enviar.'; 
@@ -115,7 +115,7 @@ if(isset($_POST["submit"])){
                 $statusMsg = "O upload de arquivo falhou, tente novamente."; 
             }  
         }else{ 
-            $statusMsg = 'Apenas arquivos JPG, JPEG, PNG, WEBP e GIF são compatíveis.'; 
+            $statusMsg = 'Apenas arquivos JPG, JPEG, PNG, WEBP, AVIF e GIF são compatíveis.'; 
         } 
     }else{ 
         $statusMsg = 'Selecione uma imagem para enviar.'; 

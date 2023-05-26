@@ -1,4 +1,4 @@
-
+for (var i = 0; i < 10; i++){
 var el = document.querySelector('#galeria');
 const carouselItems = el.querySelectorAll('.imagem');
 
@@ -43,7 +43,7 @@ function prevSlide() {
   // Exibe o slide anterior
   showSlide();
 }
-
+}
 // Inicia o carrossel ao carregar a página
 window.addEventListener('load', () => {
   showSlide();
