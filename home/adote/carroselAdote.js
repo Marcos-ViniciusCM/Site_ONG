@@ -1,5 +1,6 @@
-// Obtém todos os elementos do carrossel
-const carouselItems = document.querySelectorAll('.imagem');
+
+var el = document.querySelector('#galeria');
+const carouselItems = el.querySelectorAll('.imagem');
 
 // Define o índice do slide atual
 let currentIndex = 0;
@@ -46,5 +47,5 @@ function prevSlide() {
 // Inicia o carrossel ao carregar a página
 window.addEventListener('load', () => {
   showSlide();
-  setInterval(nextSlide, 5000); // Intervalo de transição de slide (em milissegundos)
+  setInterval(nextSlide, 1000); // Intervalo de transição de slide (em milissegundos)
 });

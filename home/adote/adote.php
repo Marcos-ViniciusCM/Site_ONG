@@ -3,17 +3,21 @@ include ('../config/configView.php');
 $result = $db->query("SELECT * FROM dogs ORDER BY id DESC"); 
 ?>
 <head><link rel="stylesheet" href="adote.css">
-<script src="carroselAdote.js" defer></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <h1>Amigos de patas</h1>
 <?php 
 if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os cachorros-->
-<div class="carrousel">
+<div class="carrousel" id = "test">
         <?php while($row = $result->fetch_assoc()){ ?> 
-            <div class="carrousel-item">
+        <div class="carrousel-item">
         <div class="gallery" id="galeria">
-                <img class="imagem" id="img"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
+        <script src="carroselAdote.js" defer></script>
+        <img class="imagem" id="img"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" /> 
+        <img class="imagem" id="img2"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image2']); ?>" />
+        <img class="imagem" id="img3"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image3']); ?>" />
+        <img class="imagem" id="img4"src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image4']); ?>" />
+       
         <div class="conteudos"> 
         <div class="dog-nome"><span class="nome"></span> <?php echo $row['dname']; ?> </div>
         <br>
@@ -22,7 +26,7 @@ if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os 
             <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
             <br>
             <a href="https://api.whatsapp.com/send?phone=553798692510&text= Olá! Estou interessado em adotar o/a <?php echo $row['dname']; ?>.." target="_blank">Clique aqui para entrar em contato via WhatsApp</a>
-</div> 
+        </div> 
         </div>
         </div>
         <?php } ?> 

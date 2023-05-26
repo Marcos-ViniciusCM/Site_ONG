@@ -43,7 +43,7 @@ $result = $db->query("SELECT * FROM dogs");
       <div class="conteudo">
         <h2>COM A SUA CONTRIBUIÇÃO, ESTAMOS JUNTOS NA MISSÃO</h2><br>
         <h2 class="second-line">DE MELHORAR A VIDA DE MILHARES DE ANIMAIS.</h2>
-        <a class="link" href="#">QUERO AJUDAR </a>
+        <a class="link" href="doação/doação.html">QUERO AJUDAR </a>
       </div>
     </div>
 
@@ -77,7 +77,7 @@ $result = $db->query("SELECT * FROM dogs");
           </div>
           <div class="topico">
             <p>Contribuindo como voluntário, você estará ajudando a construir um mundo melhor</p>
-            <a href="#">QUERO AJUDAR </a>
+            <a href="voluntarios/voluntarios.html">QUERO AJUDAR </a>
           </div>
         </div>
       </div>
@@ -97,7 +97,6 @@ $result = $db->query("SELECT * FROM dogs");
 </div>
 <?php if($result->num_rows > 0){ ?> 
 <?php }else{ ?> 
-    <p class="status error">Imagens não encontradas...</p> 
 <?php } ?>
 
 
@@ -108,7 +107,7 @@ $result = $db->query("SELECT * FROM dogs");
       <img src="imagem/doacao (1).png">
       <p>Ao doar, você estará contribuindo com abrigo, alimentação, cuidados veterinários e amor para um animalzinho que está aguardando por uma família definitiva. Você pode se tornar um herói 
         para esse cãozinho, oferecendo-lhe a chance de viver uma vida feliz e saudável enquanto ele aguarda por sua adoção.</p>
-      <a href="">Doe</a>
+      <a href="doação/doação.html">Doe</a>
       </div>
     </div>  
 </body>
