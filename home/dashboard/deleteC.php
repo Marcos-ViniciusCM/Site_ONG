@@ -164,6 +164,48 @@ if (isset($_POST['delete'])){
         window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; 
     }
 }
+if (isset($_POST['deleteImg2'])){
+    $dId = $_POST['id'];
+    $sql = "UPDATE dogsC SET image2=NULL WHERE id= $dId";
+    if (mysqli_query($conn, $sql)) {
+        echo "<script type='text/javascript'>alert('A imagem foi deletada com sucesso!');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';
+        </script>";
+    } else {
+        echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; 
+    }
+}
+if (isset($_POST['deleteImg3'])){
+    $dId = $_POST['id'];
+    $sql = "UPDATE dogsC SET image3=NULL WHERE id= $dId";
+    if (mysqli_query($conn, $sql)) {
+        echo "<script type='text/javascript'>alert('A imagem foi deletada com sucesso!');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';
+        </script>";
+    } else {
+        echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; 
+    }
+}
+if (isset($_POST['deleteImg4'])){
+    $dId = $_POST['id'];
+    $sql = "UPDATE dogsC SET image4=NULL WHERE id= $dId";
+    if (mysqli_query($conn, $sql)) {
+        echo "<script type='text/javascript'>alert('A imagem foi deletada com sucesso!');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';
+        </script>";
+    } else {
+        echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; 
+    }
+}
 
 if (isset($_POST['deleteVolun'])){
     $dId = $_POST['id'];

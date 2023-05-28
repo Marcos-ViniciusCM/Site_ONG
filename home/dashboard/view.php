@@ -41,18 +41,21 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <span class="dog-sexo">Alterar imagem 2:</span><br>
             <input type="file" name="imgAdd">
             <input type ="submit" name ="alterarImg2"  class="alterar" value="Upload">
+            <input type ="submit" class="deletar" name ="deleteImg2" value="Deletar">
             </form>
                 <form action="delete.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar imagem 3:</span><br>
             <input type="file" name="imgAdd">
             <input type ="submit" name ="alterarImg3"  class="alterar" value="Upload">
+            <input type ="submit" class="deletar" name ="deleteImg3" value="Deletar">
             </form>
                 <form action="delete.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar imagem 4:</span><br>
             <input type="file" name="imgAdd">
             <input type ="submit" name ="alterarImg4"  class="alterar" value="Upload">
+            <input type ="submit" class="deletar" name ="deleteImg4" value="Deletar">
             </form>
             <form action="delete.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">

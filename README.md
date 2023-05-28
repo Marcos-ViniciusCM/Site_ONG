@@ -12,5 +12,3 @@ Algumas coisas que precisão de ajuste visual:
 <br> 
 - Barra no topo do dashboard.
 <br>
- //Adicionar imagems
-<br>
