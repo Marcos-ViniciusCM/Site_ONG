@@ -30,11 +30,35 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <input type ="text" name ="alterarDes">
             <input type ="submit" name ="alterarDesc"  class="alterar" value="Alterar">
             </form>
-            <form action="deleteC.php" method="post">
+            <form action="delete.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
-            <span class="dog-sexo">Adicionar imagem:</span><br>
-            <input type="file" name="image">
-            <input type ="submit" name ="alterarImg"  class="alterar" value="Alterar">
+            <span class="dog-sexo">Alterar imagem 1:</span><br>
+            <input type="file" name="imgAdd">
+            <input type ="submit" name ="alterarImg1"  class="alterar" value="Upload">
+            </form>
+                <form action="delete.php" method="post" enctype="multipart/form-data">
+            <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
+            <span class="dog-sexo">Alterar imagem 2:</span><br>
+            <input type="file" name="imgAdd">
+            <input type ="submit" name ="alterarImg2"  class="alterar" value="Upload">
+            </form>
+                <form action="delete.php" method="post" enctype="multipart/form-data">
+            <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
+            <span class="dog-sexo">Alterar imagem 3:</span><br>
+            <input type="file" name="imgAdd">
+            <input type ="submit" name ="alterarImg3"  class="alterar" value="Upload">
+            </form>
+                <form action="delete.php" method="post" enctype="multipart/form-data">
+            <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
+            <span class="dog-sexo">Alterar imagem 4:</span><br>
+            <input type="file" name="imgAdd">
+            <input type ="submit" name ="alterarImg4"  class="alterar" value="Upload">
+            </form>
+            <form action="delete.php" method="post">
+            <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
+            <span class="dog-sexo">Alterar status de adoção: </span>
+            <span>S</span><input type="radio" name="adoptB" value="adoptY"><span>N</span><input type="radio" name="adoptB" value="adoptN">
+            <input type ="submit" class="alterar" name ="adopt" value="Alterar"> 
             </form>
             <form action="delete.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">

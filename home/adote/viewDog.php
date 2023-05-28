@@ -21,9 +21,3 @@ if (!$conn) {
 <?php }else{ ?> 
     <p class="status error">Imagens não encontradas...</p> 
 <?php } ?>
-
-    
- //Adicionar sobre em voluntários
- //Botão de adoção nos comunitários
- //avif
- //Checkbox de adotado

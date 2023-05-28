@@ -54,22 +54,102 @@ if (isset($_POST['alterarDesc'])){
         window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; 
     }
 }
-if (isset($_POST['alterarImg'])){
-        $image_content = addslashes(file_get_contents($_FILES['img']['tmp_name'])); 
-        $dId = $_POST['id'];
-        $sql = "UPDATE dogsC SET image2='$image_content' WHERE id= $dId";
-    if (mysqli_query($conn, $sql)) {
+if (isset($_POST['alterarImg1'])){
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
+        $fileName = basename($_FILES["imgAdd"]["name"]); 
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+        if(in_array($fileType, $allowTypes)){ 
+            $image_content = addslashes(file_get_contents($_FILES['imgAdd']['tmp_name'])); 
+            $dId = $_POST['id'];
+            $sql = "UPDATE dogsC SET image='$image_content' WHERE id= $dId";
+        if (mysqli_query($conn, $sql)) {
         echo "<script type='text/javascript'>alert('Nova imagem adicionada com sucesso!');</script>";
         echo "<script type='text/javascript'>
         window.location = '".$_SERVER['HTTP_REFERER']."';
         </script>";
-    } else {
+        } else {
         echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
         echo "<script type='text/javascript'>
-        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; 
-    }
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; }
+       }    else{
+            echo "<script type='text/javascript'>alert('Tipo de imagem não suportado!');</script>";
+            echo "<script type='text/javascript'>
+            window.location = '".$_SERVER['HTTP_REFERER']."';
+            </script>";
+        }
 }
-    
+if (isset($_POST['alterarImg2'])){
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
+        $fileName = basename($_FILES["imgAdd"]["name"]); 
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+        if(in_array($fileType, $allowTypes)){ 
+            $image_content = addslashes(file_get_contents($_FILES['imgAdd']['tmp_name'])); 
+            $dId = $_POST['id'];
+            $sql = "UPDATE dogsC SET image2='$image_content' WHERE id= $dId";
+        if (mysqli_query($conn, $sql)) {
+        echo "<script type='text/javascript'>alert('Nova imagem adicionada com sucesso!');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';
+        </script>";
+        } else {
+        echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; }
+       }    else{
+            echo "<script type='text/javascript'>alert('Tipo de imagem não suportado!');</script>";
+            echo "<script type='text/javascript'>
+            window.location = '".$_SERVER['HTTP_REFERER']."';
+            </script>";
+        }
+}
+if (isset($_POST['alterarImg3'])){
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
+        $fileName = basename($_FILES["imgAdd"]["name"]); 
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+        if(in_array($fileType, $allowTypes)){ 
+            $image_content = addslashes(file_get_contents($_FILES['imgAdd']['tmp_name'])); 
+            $dId = $_POST['id'];
+            $sql = "UPDATE dogsC SET image3='$image_content' WHERE id= $dId";
+        if (mysqli_query($conn, $sql)) {
+        echo "<script type='text/javascript'>alert('Nova imagem adicionada com sucesso!');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';
+        </script>";
+        } else {
+        echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; }
+       }    else{
+            echo "<script type='text/javascript'>alert('Tipo de imagem não suportado!');</script>";
+            echo "<script type='text/javascript'>
+            window.location = '".$_SERVER['HTTP_REFERER']."';
+            </script>";
+        }
+}
+if (isset($_POST['alterarImg4'])){
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
+        $fileName = basename($_FILES["imgAdd"]["name"]); 
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+        if(in_array($fileType, $allowTypes)){ 
+            $image_content = addslashes(file_get_contents($_FILES['imgAdd']['tmp_name'])); 
+            $dId = $_POST['id'];
+            $sql = "UPDATE dogsC SET image4='$image_content' WHERE id= $dId";
+        if (mysqli_query($conn, $sql)) {
+        echo "<script type='text/javascript'>alert('Nova imagem adicionada com sucesso!');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';
+        </script>";
+        } else {
+        echo "<script type='text/javascript'>alert('Erro alterando o cachorro...');</script>";
+        echo "<script type='text/javascript'>
+        window.location = '".$_SERVER['HTTP_REFERER']."';</script>"; }
+       }    else{
+            echo "<script type='text/javascript'>alert('Tipo de imagem não suportado!');</script>";
+            echo "<script type='text/javascript'>
+            window.location = '".$_SERVER['HTTP_REFERER']."';
+            </script>";
+        }
+}
 if (isset($_POST['delete'])){
     $dId = $_POST['id'];
     $sql = "DELETE FROM dogsC WHERE id = $dId";

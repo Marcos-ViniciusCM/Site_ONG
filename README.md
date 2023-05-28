@@ -1,11 +1,16 @@
 # AnjosGaar
 <br>
-
-Falta php para:
+Algumas coisas quebradas visualmente:
 <br>
- //Adicionar sobre em voluntários
+- Upload de voluntários.
 <br>
- //Checkbox de adotado
+- Visão de voluntários no dashboard.
+<br>
+Algumas coisas que precisão de ajuste visual:
+<br>
+- Adote! Caso o cachorro tenha sido adotado.
+<br> 
+- Barra no topo do dashboard.
 <br>
  //Adicionar imagems
 <br>

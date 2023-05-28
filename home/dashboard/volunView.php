@@ -17,6 +17,8 @@ $result = $db->query("SELECT * FROM volun");
         <br>
        <div class="voluntarios-endereço"> <span>Endereço:</span> <?php echo $row['endereco']; ?></div>
         <br>
+    <div class="voluntarios-sobre"> <span>Sobre:</span> <?php echo $row['about']; ?></div>
+        <br>
         <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <input type ="submit" class="deletar" name ="deleteVolun" value="Deletar">
