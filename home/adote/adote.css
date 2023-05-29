@@ -38,7 +38,7 @@ h1 {
   margin-bottom: 20px; /* Adicionado espaçamento entre as imagens */
 }
 .imagem{
-  max-width: 400px;
+  max-width: 300px;
   min-width: 300px;
 }
 
@@ -53,6 +53,7 @@ h1 {
   text-align:center;
   align-items: center;
   margin: 0 auto;
+  max-width: 550px;
 }
 
 .dog-sobre {
@@ -60,7 +61,7 @@ h1 {
   padding: 20px;
   font-size: 14px;
   display: inline-block;  
-  max-width: 540px;
+  max-width: 500px;
 }
 
 .dog-nome {

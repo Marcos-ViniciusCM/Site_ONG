@@ -1,0 +1,24 @@
+.quadro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .quadro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #000;
+  }
+
+  
+  
+  
+  
+  
+  
+  
