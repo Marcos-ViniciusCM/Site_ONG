@@ -2,6 +2,7 @@
 <?php $_SESSION['url'] = $_SERVER['REQUEST_URI']; ?>
 <?php ob_start(); ?>
 <?php 
+error_reporting(E_ALL ^ E_WARNING);
 include ('../config/configView.php');
 $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC"); 
 ?>
@@ -29,7 +30,7 @@ $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC");
             <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar descrição:</span><br> 
-            <input type ="text" name ="alterarDes">
+            <textarea name ="alterarDes"></textarea>
             <input type ="submit" name ="alterarDesc"  class="alterar" value="Alterar">
             </form>
             <form action="deleteC.php" method="post" enctype="multipart/form-data">
