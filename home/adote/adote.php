@@ -17,9 +17,6 @@ if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os 
         <input type ="image" class="imagem" src="data:image/jpg;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>" >
         </form>
         <div class="conteudos"> 
-        <?php if($row['adopted'] == 0){ ?>
-            <span>ADOTADO!</span>
-        <?php }?>
         <div class="dog-nome"><span class="nome"></span> <?php echo $row['dname']; ?> </div>
         <br>
             <div class="dog-sexo"><span></span><?php echo $row['sex']; ?></div>
