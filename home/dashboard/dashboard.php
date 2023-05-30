@@ -22,7 +22,7 @@
     <label>Sexo:</label>
     <input type="text" name="sex">
     <label>Descrição:</label>
-    <textarea name="description"> </textarea>
+    <textarea name="description"></textarea>
     <label>É um cachorro comunitário: <input type="checkbox" name="comunitario"></label>
     <input type="submit" name="submit" value="Upload">
 </div>

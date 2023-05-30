@@ -29,7 +29,7 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
             <form action="delete.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
             <span class="dog-sexo">Alterar descrição:</span><br> 
-            <input type ="text" name ="alterarDes">
+            <textarea name ="alterarDes"></textarea>
             <input type ="submit" name ="alterarDesc"  class="alterar" value="Alterar">
             </form>
             <form action="delete.php" method="post" enctype="multipart/form-data">
