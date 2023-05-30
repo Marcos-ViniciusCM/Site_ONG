@@ -94,6 +94,15 @@ a{
   a:hover {
     background-color: #45a049;
   }
+  .conteudo-anjos{
+    max-width: 890px;
+    margin:0 auto;
+    text-align: center;
+    background-color: red;
+  }
+  .conteudo-anjos > p{
+    font-size: 110%;
+  }
   .slider {
     position: relative;
     width: 100%;
