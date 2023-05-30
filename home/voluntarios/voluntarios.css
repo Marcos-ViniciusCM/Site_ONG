@@ -8,14 +8,23 @@ body {
 	padding: 0;
 	background-color:  #b3c966 ;
 }
+.conteudo-anjos{
+	max-width: 600px;
+	margin:0 auto;
+	text-align: center;
+}
+.conteudo-anjos > p{
+	font-size: 110%;
+}
 
 .cracha {
+	background-color: #afc194;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	width: 600px;
-	height: 300px;
+	height: 500px;
 	margin: 50px auto;
 	border: 2px solid #afc194;
 	border-radius: 5px;
@@ -74,6 +83,10 @@ input[type="submit"] {
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	margin-top: 20px;
+}
+#sobre{
+	width: 100%;
+	height: 80px;
 }
 @media only screen and (max-width: 999px) {
 	.cracha {

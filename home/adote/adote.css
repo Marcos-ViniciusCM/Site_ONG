@@ -46,7 +46,6 @@ h1 {
   margin: 0;
   top: 0px;
   text-align: center;
-  align-item:center;
 }
 .conteudos{
   flex-direction:column;
@@ -62,6 +61,7 @@ h1 {
   font-size: 14px;
   display: inline-block;  
   max-width: 500px;
+  word-wrap: break-word;
 }
 
 .dog-nome {
