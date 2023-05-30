@@ -28,7 +28,7 @@ h1 {
 }
 
 h1 {
-  color: #fff;
+  color: black;
   margin-top: 0px; /* Adicionado para remover a margem superior padrão */
 }
 
@@ -38,8 +38,7 @@ h1 {
   margin-bottom: 20px; /* Adicionado espaçamento entre as imagens */
 }
 .imagem{
-  max-width: 400px;
-  min-width: 300px;
+  max-width: 300px;
 }
 
 .nome {
@@ -148,7 +147,6 @@ a{
     max-width: 890px;
     margin:0 auto;
     text-align: center;
-    background-color: red;
   }
   .conteudo-anjos > p{
     font-size: 110%;
