@@ -24,7 +24,7 @@ if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os 
             <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
             <br>
             <?php if($row['adopted'] == 1){ ?>
-            <span>ADOTADO!</span>
+            <span class="adotado">ADOTADO!</span>
             <?php } else{?>
             <a href="https://api.whatsapp.com/send?phone=553798692510&text= Olá! Estou interessado em adotar o/a <?php echo $row['dname']; ?>.." target="_blank">Clique aqui para entrar em contato via WhatsApp</a>
             <?php }?>

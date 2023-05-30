@@ -17,7 +17,9 @@ $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC");
             <div class="dog-sexo"><span></span> <?php echo $row['sex']; ?></div>
             <br>
             <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
-            <br></div>
+            <br>
+            <a href="">Contribua para o cuidado do cão.</a>
+        </div>
         </div>
         <?php } ?> 
 <?php }else{ ?> 

@@ -1,6 +1,6 @@
 body {
-    background-color: #181A1F;
-    color: #fff;
+    background-color: #b3c966;
+    color:black;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -14,12 +14,12 @@ body {
   }
 
   .voluntarios {
-    background-color: #26282D;
+    background-color: #afc194;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
     margin: auto;
-    border: #fff 2px solid;
+    border: black 2px solid;
   }
 
   .voluntarios-nome {

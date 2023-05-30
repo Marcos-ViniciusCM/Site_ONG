@@ -1,11 +1,11 @@
 body {
-  background-color: #181A1F;
-  color: #fff;
+  background-color: #b3c966 ;
+  color: black;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
   display: flex;
-  flex-direction: column; /* Adicionado para alinhar verticalmente os elementos */
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
 }
@@ -15,7 +15,7 @@ h1 {
 }
 
 .gallery {
-  background-color: #3b283b;
+  background-color: #afc194;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
@@ -28,13 +28,13 @@ h1 {
 
 h1 {
   color: #fff;
-  margin-top: 0px; /* Adicionado para remover a margem superior padrão */
+  margin-top: 0px; 
 }
 
 .imagem {
   flex: 0 0 200px;
   margin-right: 20px;
-  margin-bottom: 20px; /* Adicionado espaçamento entre as imagens */
+  margin-bottom: 20px; 
 }
 .imagem{
   max-width: 400px;
@@ -116,7 +116,7 @@ a{
 
 @media (max-width:999px){
   .gallery {
-    background-color: #3b283b;
+    background-color: #afc194;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 10px;

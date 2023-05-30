@@ -38,13 +38,8 @@ $result = $db->query("SELECT * FROM dogs");
    </div> 
 </header>
 <main><script src="mobile-menu.js"></script></main>
-
-    <div id="doacao-home">
-       
+    <div id="doacao-home"> 
       <div class="conteudo">
-        <h2>COM A SUA CONTRIBUIÇÃO, ESTAMOS JUNTOS NA MISSÃO</h2><br>
-        <h2 class="second-line">DE MELHORAR A VIDA DE MILHARES DE ANIMAIS.</h2>
-        <a class="link" href="doação/doação.html">QUERO AJUDAR </a>
       </div>
     </div>
 
@@ -82,6 +77,7 @@ $result = $db->query("SELECT * FROM dogs");
           </div>
         </div>
       </div>
+      
       <!--carrosel-->
       <?php if($result->num_rows > 0) ?> 
       <h1>Cães de adoção</h1>
