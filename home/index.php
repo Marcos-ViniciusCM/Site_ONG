@@ -40,6 +40,7 @@ $result = $db->query("SELECT * FROM dogs");
 <main><script src="mobile-menu.js"></script></main>
 
     <div id="doacao-home">
+       
       <div class="conteudo">
         <h2>COM A SUA CONTRIBUIÇÃO, ESTAMOS JUNTOS NA MISSÃO</h2><br>
         <h2 class="second-line">DE MELHORAR A VIDA DE MILHARES DE ANIMAIS.</h2>

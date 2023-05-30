@@ -47,7 +47,7 @@ p{
   height: 50%;
   width: 10%;
   text-align: center;
-  background-color: #bfb372;
+  background-color: #d4a331;
   margin-left: 4px;
   font-size: 120%;
   transition: transform 0.2s ease-in-out;
@@ -137,6 +137,12 @@ p{
 
 #doacao-home{
   background-color: #a7bf8e;
+  background-image: url("imagem/Colagem.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
   height: 80vh;
   color: black;
   flex-basis: 30%; /* define a largura de cada div */
