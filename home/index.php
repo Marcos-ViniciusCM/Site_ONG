@@ -29,7 +29,7 @@ $result = $db->query("SELECT * FROM dogs");
 </div>
                                                             <!--nav bar desktop-->
    <ul class="nav-list">
-       <li><a href="https://www.instagram.com/anjosgaar/"><div class="instagram"><img src="imagem/instagram.png"> Instagram Gaar</div></a></li>
+       <li><a href="https://instagram.com/anjosgaar?igshid=MzRlODBiNWFlZA=="><div class="instagram"><img src="imagem/instagram.png"> Instagram Gaar</div></a></li>
         <li><a href="adote/adote.php" >Adote</a></li>
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>
         <li><a href="comunitarios/comunitarios.php" >Cães comunitarios</a></li>

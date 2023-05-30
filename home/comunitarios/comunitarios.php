@@ -3,7 +3,6 @@ include ('../config/configView.php');
 $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC"); 
 ?>
 <head><link rel="stylesheet" href="adote.css"></head>
-<h1>Amigos de patas</h1>
 <div class="conteudo-anjos">
         <h2>Sobre os cães comunitários</h2>
 		<p>O Cão Comunitário é um programa de manejo ético populacional, permitido por lei (Lei Estadual 28.863/2021) , que tem o objetivo de manter animais em situação de rua em uma comunidade sob os cuidados de pessoas dispostas a assumir sua supervisão e garantir melhor qualidade de vida a esses animais, fornecendo alimento, carinho e cuidados veterinários. O cão comunitário, diferentemente de um animal abandonado, recebe cuidados fixos.
