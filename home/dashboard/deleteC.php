@@ -55,7 +55,7 @@ if (isset($_POST['alterarDesc'])){
     }
 }
 if (isset($_POST['alterarImg1'])){
-        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif','JPG','PNG','JPEG','JPEG','GIF','WEBP','AVIF'); 
         $fileName = basename($_FILES["imgAdd"]["name"]); 
         $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
         if(in_array($fileType, $allowTypes)){ 

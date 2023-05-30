@@ -17,7 +17,7 @@ $result = $db->query("SELECT * FROM volun");
         <br>
        <div class="voluntarios-endereço"> <span>Endereço:</span> <?php echo $row['endereco']; ?></div>
         <br>
-    <div class="voluntarios-sobre"> <span>Sobre:</span> <?php echo $row['about']; ?></div>
+    <div class="voluntarios-sobre"> <span>Sobre:</span> <?php echo nl2br($row['about']); ?></div>
         <br>
         <form action="deleteC.php" method="post">
             <input type="hidden" name = "id" value = "<?php echo $row['id']; ?>">
@@ -27,5 +27,5 @@ $result = $db->query("SELECT * FROM volun");
  <?php } ?> 
 </div>
 <?php }else{ ?> 
-    <p class="status error">Imagens não encontradas...</p> 
+    <p class="status error">Não há nenhum voluntário...</p> 
 <?php } ?>

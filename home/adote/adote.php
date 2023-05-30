@@ -21,7 +21,7 @@ if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os 
         <br>
             <div class="dog-sexo"><span></span><?php echo $row['sex']; ?></div>
             <br>
-            <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
+            <div class="dog-sobre"><span></span> <?php echo nl2br($row['description']); ?></div>
             <br>
             <?php if($row['adopted'] == 1){ ?>
             <span class="adotado">ADOTADO!</span>

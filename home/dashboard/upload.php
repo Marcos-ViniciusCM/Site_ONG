@@ -23,7 +23,7 @@ if(isset($_POST["submit"])){
         $fileType4 = pathinfo($fileName4, PATHINFO_EXTENSION);
     }
          
-        $allowTypes = array('jpg','png','jpeg','gif','webp','avif'); 
+        $allowTypes = array('jpg','png','jpeg','gif','webp','avif','JPG','PNG','JPEG','JPEG','GIF','WEBP','AVIF'); 
         if(in_array($fileType, $allowTypes)){ 
             $dname = $_POST['dname'];
             $sex = $_POST['sex'];

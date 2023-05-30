@@ -23,7 +23,7 @@ $result = $db->query("SELECT * FROM dogsC ORDER BY id DESC");
             <br>
             <div class="dog-sexo"><span></span> <?php echo $row['sex']; ?></div>
             <br>
-            <div class="dog-sobre"><span></span> <?php echo $row['description']; ?></div>
+            <div class="dog-sobre"><span></span> <?php echo nl2br($row['description']); ?></div>
             <br>
             <a href="">Contribua para o cuidado do cão.</a>
         </div>

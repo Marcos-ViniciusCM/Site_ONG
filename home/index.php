@@ -34,7 +34,7 @@ $result = $db->query("SELECT * FROM dogs");
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>
         <li><a href="comunitarios/comunitarios.php" >Cães comunitarios</a></li>
     </ul>
-    <a class="button-donation" href="doa%C3%A7%C3%A3o/doa%C3%A7%C3%A3o.html" >Doe</a></li>
+    <a class="button-donation" href="doa%C3%A7%C3%A3o/doa%C3%A7%C3%A3o.html">Doe</a></li>
    </div> 
 </header>
 <main><script src="mobile-menu.js"></script></main>
@@ -49,19 +49,19 @@ $result = $db->query("SELECT * FROM dogs");
             <img src="imagem/3.png">
             <h1>DOAÇÕES</h1>
             <p>Faça um cãozinho feliz hoje. Contribua para a felicidade de um amigo de quatro patas necessitado.</p>
-            <a src="">Saiba Mais</a>
+            <a href="doa%C3%A7%C3%A3o/doa%C3%A7%C3%A3o.html">Saiba Mais</a>
         </div>
         <div class="box">
           <img src="imagem/cuidado animal.png">
           <h1>ADOTE</h1>
           <p>Transforme a vida de um cãozinho hoje. Adote, Doe, Ame.</p>
-            <a src="">Saiba Mais</a>
+            <a href="adote/adote.php">Saiba Mais</a>
         </div>
         <div class="box">
           <img src="imagem/mao cachorro.png">
           <h1>CÃES COMUNITARIOS</h1>
           <p>Cães Comunitários são cães de rua que não possuem donos, e são acolhidos e cuidados pela comunidade.</p>
-          <a src="">Saiba Mais</a>
+          <a href="comunitarios/comunitarios.php">Saiba Mais</a>
     </div>
     
     <div class="voluntarios">
