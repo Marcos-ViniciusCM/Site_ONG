@@ -65,11 +65,23 @@ $result = $db->query("SELECT * FROM dogs");
     </div>
     
     <div class="voluntarios">
-        <img src="https://img.freepik.com/fotos-gratis/vista-lateral-do-cao-de-resgate-amando-o-carinho-que-recebe-da-mulher-no-abrigo_23-2148682930.jpg?size=626&ext=jpg" alt="Imagem">
+        <img src="imagem/434f4502-6f8a-47b3-b06f-321bd547ae7d.JPG" alt="Imagem">
         <div class="topicos">
           <div class="topico">
             <h1>VOLUNTARIOS GAAR</h1>
-            <p>Junte-se à nossa comunidade de voluntários e faça a diferença ajudando a construir<br> um mundo melhor juntos!</p>
+            <h3>Existem várias maneiras de colaborar com o grupo Anjos GAAR nas ações voltadas à causa animal ou mesmo de ser um voluntário independente, fazendo o que está ao seu alcance. Algumas formas de trabalho voluntário são:</h3>
+           <ul>
+            <li>Auxílio em feiras de adoção, permanecendo no local para supervisionar os animais ou vendendo algum produto.</li>
+            <li>Supervisão a cães comunitários, passando pelos locais que podem ser próximos à sua casa ou trabalho, reconhecendo os animais e verificando suas necessidades.</li>
+            <li>Caso você possa oferecer lar temporário de poucos dias para o período pós-operatório de castração, é algo que ajuda imensamente;</li>
+            <li>Uma carona de ida e volta no médico veterinário, ou no dia da castração também ajudam muito.</li>
+            <li>Divulgação de campanhas de arrecadação de recursos financeiros que cobrem as despesas de resgate e tratamento animal.</li>
+            <li>Doação de materiais de uso animal, como: ração, caminhas, casinhas, cobertores, comedouros, medicamentos, coleiras, etc.</li>
+            <li>Doação em dinheiro para pagamento das despesas em clínicas veterinárias</li>
+            <li>O principal e mais fácil: colocar em sua porta uma vasilha de água fresca e, se possível, alimento que não estrague, como ração seca, e que rapidamente seja consumido pelo animal que passa pela rua.</li>
+            <li>Você também pode ajudar conscientizando um amigo, um vizinho, um familiar sobre a situação de sofrimento e risco que os animais em situação de rua vivem, e sobre maus-tratos tão frequentes que acontecem dentro das casas.</li>
+
+           </ul>
           </div>
           <div class="topico">
             <p>Contribuindo como voluntário, você estará ajudando a construir um mundo melhor</p>

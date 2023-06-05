@@ -1,7 +1,6 @@
 * {
   margin:0;
   padding:0;
-  list-style:none;
   vertical-align:baseline;
 }
 body { overflow-x: hidden;
@@ -218,12 +217,22 @@ p{
 .topico h2 {
   font-size: 20px;
 }
+.topico h3{
+  max-width: 999px;
+  font-weight: lighter;
+}
 .topico h1 {
   font-size: 40px;
+}
+.topico li {
+  font-size: 16px;
+  margin: 10px 0;
+  max-width: 999px;
 }
 .topico p {
   font-size: 16px;
   margin: 10px 0;
+  max-width: 999px;
 }
 .topico a {
   font-size: 16px;
@@ -416,7 +425,17 @@ a:hover{
     margin: 0 60px;
   }
   #doacao-home {
-    display: none;
+   object-fit:cover;
+   background-size:cover;
+  }
+  .voluntarios img {
+    max-width: 100%;
+    max-height: 350px;
+    align-items: center;
+    margin:0 auto;
+  }
+  .voluntarios li{
+    font-size: 115%;
   }
 
 }

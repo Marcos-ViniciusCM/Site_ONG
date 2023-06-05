@@ -40,3 +40,11 @@ body {
   .voluntarios-sobre{
     word-wrap: break-word;
   }
+  .conteudo-anjos{
+    max-width: 600px;
+    margin:0 auto;
+    text-align: center;
+  }
+  .conteudo-anjos > p{
+    font-size: 110%;
+  }
