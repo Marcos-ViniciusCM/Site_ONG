@@ -5,7 +5,19 @@ $result = $db->query("SELECT * FROM dogs ORDER BY id DESC");
 <head><link rel="stylesheet" href="adote.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<h1>Amigos de patas</h1>
+<div class='conteudo-anjos'>
+ Sobre adoção responsável:
+Quando pensamos em adotar um animal, é importante entender o que é posse responsável. Muito além do carinho e da atenção que devem ser direcionados ao pet, preservar o bem-estar animal está previsto em lei, e fazer o contrário é considerado crime.
+Dessa forma, ao adotar um animal, o tutor assume a responsabilidade pelas condições de vida daquele animal. Isso significa ter deveres ligados à saúde e à dignidade daquele ser vivo que passa a estar sob os seus cuidados. Confira abaixo algumas obrigações que traduzem uma posse responsável.
+garantir alimentação adequada com água limpa e fresca à vontade;
+oferecer local limpo, protegido contra o frio e o calor;
+vacinação adequada e regular;
+manter o animal em um espaço que traga conforto, sem estar confinado.
+fornecer cuidados médicos veterinários sempre que necessário.
+ 
+Você está considerando adotar um animal? 
+Conheça nossos cães disponíveis para adoção responsável:
+</div>
 <?php 
 if($result->num_rows > 0){ ?> <!--dentro do while tudo se repetar para todos os cachorros-->
 <div class="carrousel" id = "test">
