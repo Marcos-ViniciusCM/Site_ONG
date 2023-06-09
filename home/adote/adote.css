@@ -185,6 +185,9 @@ a{
     text-align: center;
   }
   .dog-sobre{
-    font-size: 2vh;
+    font-size: 20px;
+  }
+  li{
+    font-size: 20px;
   }
 }
