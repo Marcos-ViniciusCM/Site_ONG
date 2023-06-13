@@ -1,5 +1,5 @@
 body {
-  background-color: #b3c966;
+  background-color: #b3c966 ;
   color: black;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h1 {
-  color: black;
+  color: #fff;
   margin-top: 0px; /* Adicionado para remover a margem superior padrão */
 }
 
@@ -39,19 +39,20 @@ h1 {
 }
 .imagem{
   max-width: 300px;
+  min-width: 300px;
 }
 
 .nome {
   margin: 0;
   top: 0px;
   text-align: center;
-  align-item:center;
 }
 .conteudos{
   flex-direction:column;
   text-align:center;
   align-items: center;
   margin: 0 auto;
+  max-width: 550px;
 }
 
 .dog-sobre {
@@ -59,7 +60,8 @@ h1 {
   padding: 20px;
   font-size: 14px;
   display: inline-block;  
-  max-width: 540px;
+  max-width: 500px;
+  word-wrap: break-word;
 }
 
 .dog-nome {
@@ -91,6 +93,14 @@ a{
   
   a:hover {
     background-color: #45a049;
+  }
+  .conteudo-anjos{
+    max-width: 890px;
+    margin:0 auto;
+    text-align: center;
+  }
+  .conteudo-anjos > p{
+    font-size: 110%;
   }
   .slider {
     position: relative;
@@ -143,18 +153,16 @@ a{
   a:hover {
     background-color: #45a049;
   }
-  .conteudo-anjos{
-    max-width: 890px;
-    margin:0 auto;
-    text-align: center;
-  }
-  .conteudo-anjos > p{
-    font-size: 110%;
+
+  .adotado{
+    font-size: 170%;
+    font-weight: bold;
+    color:#e5a44d;
   }
 
 @media (max-width:999px){
   .gallery {
-    background-color: #afc194;
+    background-color:#afc194 ;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 10px;
@@ -177,6 +185,9 @@ a{
     text-align: center;
   }
   .dog-sobre{
-    font-size: 2vh;
+    font-size: 20px;
+  }
+  li{
+    font-size: 20px;
   }
 }
