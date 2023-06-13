@@ -29,10 +29,10 @@ label{
 .header{
     padding-bottom: 50px;
     opacity: 0.8;
-    color: #fff;
+    color: black;
 }
 .content label{
-    color: #fff;
+    color: black;
     font-size: 12px;
     opacity: 0.8;
 }
@@ -49,7 +49,7 @@ label{
     border:none;
     border-bottom: 1px solid #e1e1e1;
     outline: none;
-    color: #fff;
+    color: black;
 }
 
 .footer{
