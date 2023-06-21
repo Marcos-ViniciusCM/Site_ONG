@@ -389,30 +389,40 @@ a:hover{
 
 
 @media(max-width:999px){
-  body{
+  .body{
     overflow-x:hidden ;
   }
+  .navBar{
+    position: relative;
+  }
   .nav-list{
-    position:absolute;
-    top:9.5vh;
+    display: none;
+    position: absolute;
+    top: 100%;
     right: 0;
-    width: 50vw;
-    height: 90vh;
+    width: 100vw;
+    height: calc(100vh - 50px); /* Ajuste conforme necessário */
     background-color: #b3c966;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transform: translateX(100%);
     z-index: 1;
   }
+  
   .nav-list li{
     margin-left :20px;
     opacity: 0;
   }
+  .nav-list.show {
+    display: flex;
+  }
   .mobile-menu{
-  display: block;
-   visibility: visible;
-   margin: 0;
+    display: block;
+    visibility: visible;
+    
+    right: 10px;
+    transform: translateY(-5%);
+    cursor: pointer;
   
   }
   .button-donation{

@@ -22,13 +22,13 @@ $result = $db->query("SELECT * FROM dogs");
     <img src="imagem/imagem-header-semFundo.png" >
    <a class = "logo "href="" >Anjos Gaar </a>
                                                             <!----nav bar para mobile -->
-<div class="mobile-menu">
+<div id="mobile-button" class="mobile-menu">
    <div class="line1"></div>
    <div class="line2"></div>
    <div class="line3"></div>
 </div>
                                                             <!--nav bar desktop-->
-   <ul class="nav-list">
+   <ul  id="lista"class="nav-list">
        <li><a href="https://instagram.com/anjosgaar?igshid=MzRlODBiNWFlZA=="><div class="instagram"><img src="imagem/instagram.png"> Instagram Gaar</div></a></li>
         <li><a href="adote/adote.php" >Adote</a></li>
         <li><a href="voluntarios/voluntarios.html" >Voluntarios</a></li>

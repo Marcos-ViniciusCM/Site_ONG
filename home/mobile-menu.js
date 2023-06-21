@@ -37,3 +37,11 @@ handleClick() {
     ".nav-list li",
 );
 mobileNavbar.init();
+
+
+var mobileButton = document.getElementById('mobile-button');
+var navList = document.getElementById('lista');
+
+mobileButton.addEventListener('click', function() {
+    navList.classList.toggle('show');
+});
